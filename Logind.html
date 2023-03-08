@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LOGIN</title>
+  <link rel = "icon" href = "logo2.jpg" type = "x-icon">
+</head>
+<body>
+  <style>
+    	html,body{cursor:url("https://1.bp.blogspot.com/-qbWo9mPKO2Y/YL9utYdQBdI/AAAAAAAAFs4/mtjGu6u2uGwtJsT4gZG4lbhLV1a5lG6OQCLcBGAsYHQ/s0/mouse-f1.png"), auto;}
+    body {
+      overflow-x: hidden;
+      background-size: 100%;
+      background-repeat: no-repeat;
+      background-image: url(Gradients.webp);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-attachment: fixed; 
+
+    }
+    h2 {
+      font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      position: relative;
+      top: 60px;
+      left: 110px;
+      font-weight: bold;
+      font-size: 30px;
+    }
+    form {
+      overflow: hidden;
+      border-radius: 4px;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 90%;
+      height: 90vh;
+      background-color: #9191911f;
+      color: white;
+      box-shadow: 2px 2px 10px #5b5757;
+    }
+    .container {
+      position: relative;
+      left: 70px;
+      padding-top: 10px;
+      
+    }
+    .item-logind {
+      vertical-align: bottom;
+      outline: #9191911f;
+      background-color: transparent;
+      display: block;
+      width: 300px;
+      padding: 20px;
+      margin-left: 20px;
+      margin-top: 60px;
+      height: 30px;
+      border-top: none;
+      border-left: none;
+      border-right: none;
+      border-bottom: 3px solid #44433333;
+      transition: all .5s ease;
+      box-sizing: border-box;
+    }
+    .item_email {
+      outline: #9191911f;
+      background-color: transparent;
+      display: block;
+      width: 300px;
+      padding: 20px;
+      margin-left: 20px;
+      margin-top: 39px;
+      height: 30px;
+      border-top: none;
+      border-left: none;
+      border-right: none;
+      border-bottom: 3px solid #44433333;
+      transition: all .5s ease;
+      box-sizing: border-box;
+    }
+    .item_password {
+      outline: #9191911f;
+      background-color: transparent;
+      display: block;
+      width: 300px;
+      padding: 20px;
+      margin-left: 20px;
+      margin-top: 39px;
+      border-top: none;
+      border-left: none;
+      border-right: none;
+      border-bottom: 3px solid #44433333;
+      height: 30px;
+      transition: all .5s ease;
+      box-sizing: border-box;
+    }
+    .item_button {
+      position: relative;
+      background-color: rgb(0, 200, 255);
+      font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      font-size: 18px;
+      word-spacing: 2px;
+      border: none;
+      margin-top: 15px;
+      top: 30px;
+      left: 20px;
+      width: 300px;
+      height: 43px;
+      cursor: pointer;
+      border-radius: 3px;
+      color: white;
+    }
+    footer {
+      font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      position: relative;
+      top: -485px;
+      left:83px;
+      font-size: 14px;
+    }
+    a {
+      font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      text-decoration: none;
+      color:  rgba(0, 211, 81, 0.635);
+    }
+    form main img {
+      width: 80%;
+      height: 95vh;
+      position: relative;
+      left: 300px;
+      bottom:400px ;
+      object-fit: cover;
+      border-top-left-radius: 10px;
+      border-bottom-left-radius:10px;
+      -webkit-mask-image: linear-gradient(to right, transparent 10%, black 55%);
+      transition: .5s;
+    } 
+    button:hover {
+      background-color: rgb(4, 181, 230);
+    }
+    input:active{
+      transform: translateY(10px);
+      background-color: transparent;
+      border: none;
+    }
+    form:focus-within img {
+    transform: scale(1.5);
+    filter: hue-rotate(40deg);
+  }
+  ::placeholder {
+    padding: 0px;
+  }
+  input:focus-within::placeholder {
+    transform: translateY(-12px);
+  }
+  </style>
+  <form>
+    <h2>Log in</h2>
+  <div class="container">
+    <input type="text" placeholder="Account name" class="item-logind">
+    <input type="email" placeholder="Gmail.com" class="item_email">
+    <input type="password" placeholder="Password" class="item_password">
+    <button type="submit" class="item_button">ĐĂNG NHẬP</button>
+  </div>
+  <main>
+    <img src="Neonimg.webp">
+    </div>
+  </main>
+  <footer>Tạo tài khoản:
+    <a href="Dangki.html" class="Dangki"> Đăng kí.
+    </a>
+  </footer>
+</form>
+</body>
+</html>
